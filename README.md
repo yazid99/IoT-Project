@@ -3,3 +3,4 @@ I don't really know the point of this code but to help my laziness by helping me
 
 # How to run this project
 you can't, without the hardware... i'll maybe try to do demo for u later :*
+oh and don't forgot to get blynk and esp8266 lib
