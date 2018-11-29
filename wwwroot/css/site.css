@@ -1,0 +1,132 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    padding-right: 0 !important 
+}
+
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+    .body-content
+    {
+        margin:20px;
+    }
+    .control-pad
+    {
+        margin-bottom: 20px;
+    }
+    .centered-imglabel
+    {
+        font-size: 50px;
+        padding:2px;
+    }
+}
+
+.centered-imglabel
+{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    background: rgba(0, 0, 0, 0.603);
+    color:white;
+    padding:2px;
+    font-size: 1em;
+    transform: translate(-50%, -50%);
+}
+
+.thumb-pad
+{
+    margin-bottom:20px;
+}
+
+.section-header
+{
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.control-pad
+{
+    border:1px solid lightgray;
+    padding: 10px;
+    
+    
+}
+
+.device-status-brief
+{
+    color:darkgray;
+    font-style: italic;
+}
+
+.device-status-icon
+{
+    display: flex;
+    align-items: center; 
+}
+
+.btn1
+{
+    min-width: 100px;
+    margin: 2px;
+}
+
+iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+
+.videoContainer {
+position: absolute;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+a {
+    border-color:white !important;
+    color:white ;
+  }
+
+  h4
+  {
+      color: black;
+  }

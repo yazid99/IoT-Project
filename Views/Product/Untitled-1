@@ -1,0 +1,68 @@
+curl -i -X DELETE -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYmFubmVybG9yZEBiYW5uZXJsb3JkLmNvbSIsIm5iZiI6IjE1NDEyNjA0NjQiLCJleHAiOiIxNTQxMzQ2ODY0In0.LqtUvmsp-QXE0sqGyBAe028Ap9FvqkxHrO6AvVXhZAw" 10.30.40.245/Device/Unregister/207334132 
+
+curl -X POST -F data='{ "Email": "progardening@gmail.com", "Password":"qwerty" }'  103.236.201.99/Token/Create
+User ProclubGardening
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicHJvZ2FyZGVuaW5nQGdtYWlsLmNvbSIsIm5iZiI6IjE1NDEzNDg0OTgiLCJleHAiOiIxNTQxNDM0ODk4In0.AcTWbT_1uoYFqxtMCYAIHgUwgFdveM1m5cO3tivq53M
+a@a.com
+curl -i -X GET -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYUBhLmNvbSIsIm5iZiI6IjE1NDEzNDg5NDciLCJleHAiOiIxNTQxNDM1MzQ3In0.OP5PxvEfnlUPWAIuThmQFIZkAmb7QO-SQG2AVkbeOHc" 10.30.40.245/Transaction/GetTransactionById/207334132 
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYUBhLmNvbSIsIm5iZiI6IjE1NDEzNDg5NDciLCJleHAiOiIxNTQxNDM1MzQ3In0.OP5PxvEfnlUPWAIuThmQFIZkAmb7QO-SQG2AVkbeOHc
+=============
+b@b.com
+DONE
+curl -i -X POST -F data='{"Location":"{ \"x\": 1312321, \"y\": 312321 }"}' -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYkBiLmNvbSIsIm5iZiI6IjE1NDEzNDg5ODkiLCJleHAiOiIxNTQxNDM1Mzg5In0.UNCFySapxNnZkTwsLCt0h9_9Hm3TzcZpVRVolekScQA" 10.30.40.245/Transaction/BeginTransaction
+DONE
+curl -i -X PATCH -F data='[{"ProductId":"1", "Quantity": 1}]' -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYkBiLmNvbSIsIm5iZiI6IjE1NDEzNTU1MzYiLCJleHAiOiIxNTQxNDQxOTM2In0.PMCXntT__vzZSWPt6hoRF18uX77DcUAeZ5M8zGCRa3E" 10.30.40.245/Transaction/AddProduct/361117326
+DONE
+curl -i -X PATCH -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYkBiLmNvbSIsIm5iZiI6IjE1NDEzNTU1MzYiLCJleHAiOiIxNTQxNDQxOTM2In0.PMCXntT__vzZSWPt6hoRF18uX77DcUAeZ5M8zGCRa3E" 10.30.40.245/Transaction/FindCompanyForTransaction/361117326
+DONE
+curl -i -X GET -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYkBiLmNvbSIsIm5iZiI6IjE1NDEzNDg5ODkiLCJleHAiOiIxNTQxNDM1Mzg5In0.UNCFySapxNnZkTwsLCt0h9_9Hm3TzcZpVRVolekScQA" 10.30.40.245/Transaction/GetTransactions
+
+ProclubGardening
+DONE
+curl -i -X GET  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicHJvZ2FyZGVuaW5nQGdtYWlsLmNvbSIsIm5iZiI6IjE1NDEzNDg0OTgiLCJleHAiOiIxNTQxNDM0ODk4In0.AcTWbT_1uoYFqxtMCYAIHgUwgFdveM1m5cO3tivq53M" 10.30.40.245/Transaction/CompanyCheckForTransactionRequest
+DONE
+curl -i -X PATCH  -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoicHJvZ2FyZGVuaW5nQGdtYWlsLmNvbSIsIm5iZiI6IjE1NDEzNDg0OTgiLCJleHAiOiIxNTQxNDM0ODk4In0.AcTWbT_1uoYFqxtMCYAIHgUwgFdveM1m5cO3tivq53M" 10.30.40.245/Transaction/CompanyAcceptForTransaction/361117326
+
+=============
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYkBiLmNvbSIsIm5iZiI6IjE1NDEzNDg5ODkiLCJleHAiOiIxNTQxNDM1Mzg5In0.UNCFySapxNnZkTwsLCt0h9_9Hm3TzcZpVRVolekScQA
+c@c.com
+curl -i -X POST -F data='{"Location":"{ \"x\": 1312321, \"y\": 312321 }"}' -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiY0BjLmNvbSIsIm5iZiI6IjE1NDEzNDkwNTUiLCJleHAiOiIxNTQxNDM1NDU1In0.asEmp0ju7-9pGL_xiry_yC_Elco1iTgqw06U4ufaklo" 10.30.40.245/Transaction/BeginTransaction
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiY0BjLmNvbSIsIm5iZiI6IjE1NDEzNDkwNTUiLCJleHAiOiIxNTQxNDM1NDU1In0.asEmp0ju7-9pGL_xiry_yC_Elco1iTgqw06U4ufaklo
+
+employee1@e.com
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZW1wbG95ZWUxQGUuY29tIiwibmJmIjoiMTU0MTM0OTE3MiIsImV4cCI6IjE1NDE0MzU1NzIifQ.4-o4makKitSa5cE9egYg0mWcx90oZPkKJwc0nEcIEGs
+employee2@e.com
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZW1wbG95ZWUyQGUuY29tIiwibmJmIjoiMTU0MTM0OTE5OSIsImV4cCI6IjE1NDE0MzU1OTkifQ.CYnIhnvfKTiK1gA052KVgZYSAjiPIT5veVWfx18avdo
+employee3@e.com
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiZW1wbG95ZWUzQGUuY29tIiwibmJmIjoiMTU0MTM0OTIxNyIsImV4cCI6IjE1NDE0MzU2MTcifQ.LjFSTXzREuk1hl8pRGIfnIvfMj-Hj-hKbCYrzgxCKac
+
+===
+curl -i -X POST -F data='{ "Description" : "Siraman depan", "DeviceName" : "Sirmoto 1", "DeviceInfo" : "Sirmoto-EZ", "DeviceState" : "Ready"   }' -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYkBiLmNvbSIsIm5iZiI6IjE1NDEzNDg5ODkiLCJleHAiOiIxNTQxNDM1Mzg5In0.UNCFySapxNnZkTwsLCt0h9_9Hm3TzcZpVRVolekScQA" 10.30.40.245/Device/RegisterDevice
+curl -i -X GET -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYkBiLmNvbSIsIm5iZiI6IjE1NDEzNDg5ODkiLCJleHAiOiIxNTQxNDM1Mzg5In0.UNCFySapxNnZkTwsLCt0h9_9Hm3TzcZpVRVolekScQA" 10.30.40.245/Device/GetDevices
+curl -i -X PATCH -F data='{ "Description" : "Siraman a", "DeviceName" : "Sirmoto 12", "DeviceInfo" : "Sirmoto-EZy", "DeviceState" : "Stop"   }' -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYkBiLmNvbSIsIm5iZiI6IjE1NDEzNDg5ODkiLCJleHAiOiIxNTQxNDM1Mzg5In0.UNCFySapxNnZkTwsLCt0h9_9Hm3TzcZpVRVolekScQA" 10.30.40.245/Device/UpdateDeviceStatus
+curl -i -X POST -F data='{ "Time" : "17:00:00", "Duration" : "00:05:00"}' -H "Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiYkBiLmNvbSIsIm5iZiI6IjE1NDEzNDg5ODkiLCJleHAiOiIxNTQxNDM1Mzg5In0.UNCFySapxNnZkTwsLCt0h9_9Hm3TzcZpVRVolekScQA" 10.30.40.245/Device/AddNewSchedule/20511354
+==
+=Device
+-Register [DONE]
+-Get Devices [DONE]
+-Get Device by Id [DONE]
+-Get Device No [DONE]
+-Update Device Status [DONE]
+-Unregister [DONE]
+-Add new schedule [DONE]
+-Remove schedule by Id [DONE]
+
+
+Transaction - 90% DONE
+=User
+-Create [DONE]
+-Add Product [DONE]
+-Find Company [DONE]
+-Get Company for Transaction [DONE]
+=Company
+-Company Check for Transaction Request [DONE]
+-Company Accept for Transaction [DONE] OR Company Reject For Transaction
+-Transaction Finalise [DONE]
+
+=
+

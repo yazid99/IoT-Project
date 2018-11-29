@@ -1,0 +1,20 @@
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/obj/Debug/netcoreapp2.0/sirmoto.csprojAssemblyReference.cache
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/obj/Debug/netcoreapp2.0/sirmoto.csproj.CoreCompileInputs.cache
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/obj/Debug/netcoreapp2.0/sirmoto.AssemblyInfoInputs.cache
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/obj/Debug/netcoreapp2.0/sirmoto.AssemblyInfo.cs
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/bin/Debug/netcoreapp2.0/app.db
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/bin/Debug/netcoreapp2.0/sirmoto.deps.json
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/bin/Debug/netcoreapp2.0/sirmoto.runtimeconfig.json
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/bin/Debug/netcoreapp2.0/sirmoto.runtimeconfig.dev.json
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/bin/Debug/netcoreapp2.0/sirmoto.dll
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/bin/Debug/netcoreapp2.0/sirmoto.pdb
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/obj/Debug/netcoreapp2.0/sirmoto.dll
+C:/Users/Johann Von Luxemburg/source/repos/sirmoto/obj/Debug/netcoreapp2.0/sirmoto.pdb
+/home/sigismund/project/sirmoto/obj/Debug/netcoreapp2.0/sirmoto.csprojAssemblyReference.cache
+/home/sigismund/project/sirmoto/obj/Debug/netcoreapp2.0/sirmoto.csproj.CoreCompileInputs.cache
+/home/sigismund/project/sirmoto/obj/Debug/netcoreapp2.0/UserSecretsAssemblyInfo.cs
+/home/sigismund/project/sirmoto/obj/Debug/netcoreapp2.0/sirmoto.AssemblyInfoInputs.cache
+/home/sigismund/project/sirmoto/obj/Debug/netcoreapp2.0/sirmoto.AssemblyInfo.cs
+/home/sigismund/project/sirmoto/obj/Debug/netcoreapp2.0/sirmoto.dll
+/home/sigismund/project/sirmoto/obj/Debug/netcoreapp2.0/sirmoto.pdb
